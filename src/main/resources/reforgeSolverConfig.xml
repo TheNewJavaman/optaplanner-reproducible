@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<solver>
+    <solutionClass>net.javaman.optaplanner_reproducible.ReforgePlanningSolution</solutionClass>
+    <entityClass>net.javaman.optaplanner_reproducible.ItemPlanningEntity</entityClass>
+    <scoreDirectorFactory>
+        <constraintProviderClass>net.javaman.optaplanner_reproducible.MaximizeDamageConstraintProvider
+        </constraintProviderClass>
+    </scoreDirectorFactory>
+    <termination>
+        <secondsSpentLimit>10</secondsSpentLimit>
+    </termination>
+    <moveThreadCount>AUTO</moveThreadCount>
+</solver>
